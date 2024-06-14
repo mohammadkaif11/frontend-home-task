@@ -7,7 +7,10 @@ export default function Home() {
       <div className="flex flex-col gap-4">
         <p>Welcome!</p>
         <Link href="/buy/insurance_dev" className="underline">
-          Get started!
+          Get started with dev insurance
+        </Link>
+        <Link href="/buy/insurances_designer" className="underline">
+          Get started with designer insurance
         </Link>
       </div>
     </main>
